@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LINQ Helper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>LINQ Helper</h1>
+        <p>Find the right LINQ method instantly</p>
+    </header>
+
+    <section class="actions">
+
+        <button onclick="recommend('filter')">Filter Data</button> <button onclick="recommend('transform')">Transform
+            Data</button> <button onclick="recommend('group')">Group Data</button> <button
+            onclick="recommend('sort')">Sort Data</button> <button onclick="recommend('aggregate')">Aggregate
+            Data</button> <button onclick="recommend('single')">Get Single Item</button> <button
+            onclick="recommend('exists')">Check If Exists</button> <button onclick="recommend('join')">Join
+            Collections</button>
+
+    </section>
+
+
+    <section class="result">
+
+        <h2>Recommended LINQ Method</h2>
+
+        <div id="methodName">Select an action</div>
+
+        <p id="methodDescription"></p>
+
+        <pre id="exampleCode"></pre>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+.search input {
+    width: 400px;
+    padding: 12px;
+    margin: 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+.actions button {
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+}
+
+.actions button:hover .result {
+    margin-top: 40px;
+}
+
+#methodName {
+    font-size: 30px;
+    color: #22c55e;
+    margin: 20px;
+}
+
+#methodDescription {
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 16px;
+    color: #cbd5f5;
+}
+
+
+pre {
+    background: #020617;
+    padding: 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
